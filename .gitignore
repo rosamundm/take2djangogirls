@@ -2,6 +2,8 @@
 *~
 __pycache__
 venvir
-db.sqlite3
+virte
+db1.sqlite3
+*.sqlite3
 /static
 .DS_Store

@@ -27,7 +27,7 @@ SECRET_KEY = 'm(e)$wdtsm7x1@foagvjanuo=t3y+3gxb*s@suqmp%kj9)#4^('
 
 # SESSION_COOKIE_SECURE = True
 
-ALLOWED_HOSTS = [rosamundm.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'rosamundm.pythonanywhere.com']
 
 
 
