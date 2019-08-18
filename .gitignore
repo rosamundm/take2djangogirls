@@ -6,3 +6,4 @@ virte
 *.sqlite3
 /static
 .DS_Store
+private_settings.py
