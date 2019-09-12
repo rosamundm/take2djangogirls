@@ -127,4 +127,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-from private_settings import * except ImportError: print("Error: make a local version of private_settings.py from the template")
+try:
+    from private_settings import *
+except ImportError: print ("Error: make a local version of private_settings.py from the template")
