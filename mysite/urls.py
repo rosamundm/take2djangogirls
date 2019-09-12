@@ -15,7 +15,7 @@
 #"""
 from django.conf.urls import include
 from django.contrib import admin
-from django.urls import path
+from django.urls import include
 
 urlpatterns = [
     path('9admin1', admin.site.urls),
