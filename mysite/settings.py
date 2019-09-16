@@ -12,6 +12,10 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 
 import os
 
+try:
+    from private_settings import *
+except ImportError: print ("Error: make a local version of private_settings.py from the template")
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -129,9 +133,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # fingers crossed this environment variable works to solve problem starting up server!
 
-DJANGO_SETTINGS_MODULE=mysite.settings
-
-
-try:
-    from private_settings import *
-except ImportError: print ("Error: make a local version of private_settings.py from the template")
+DJANGO_SETTINGS_MODULE='mysite.settings'
