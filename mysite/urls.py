@@ -13,13 +13,13 @@
 #    1. Import the include() function: from django.urls import include, path
 #    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 #"""
-from django.conf.urls import include
+
 from django.contrib import admin
-from django.conf.urls import url
+from django.urls import path, include
 
 #('mysite/', include 'mysite.settings') <-line 18
 
 urlpatterns = [
-    url('9admin1', admin.site.urls),
-    url('', include('blog.urls')),
+    path('admin/', admin.site.urls),
+    path('', include('blog.urls')),
 ]
