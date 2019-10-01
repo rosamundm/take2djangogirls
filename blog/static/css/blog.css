@@ -4,12 +4,12 @@ body {
 
 h1 a, h2 a {
     color: #BA6B92;
-    font-family: 'Noto';
+    font-family: 'Helvetica';
 }
 
 
 .page-header {
-    background-color: #C25100;
+    background-color: #BA6B92;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -26,7 +26,7 @@ h1 a, h2 a {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Noto', cursive;
+    font-family: 'Helvetica', cursive;
 }
 
 .date {
